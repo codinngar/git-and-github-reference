@@ -71,6 +71,11 @@ git checkout main # switch to the branch you want to merge another branch into i
 git merge <branch name>
 ```
 
+* Delete a branch:
+```bash
+git branch -d <branch name>
+```
+
 <br><br>
 
 ## Setup SSH key
