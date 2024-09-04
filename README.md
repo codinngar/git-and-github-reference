@@ -29,6 +29,11 @@ git add <file | .>
 git commit -m "message" -m "descripion"
 ```
 
+* Push changes to a branch
+```bash
+git push -u origin <branch name>
+```
+
 <br><br>
 
 ## Branching
