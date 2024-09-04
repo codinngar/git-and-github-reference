@@ -1,6 +1,8 @@
 # Git and Github Reference
 This repository serves as a personal reference for Git and GitHub commands
 
+<br><br>
+
 ## Basic Commands
 
 * Add git to an existing project:
