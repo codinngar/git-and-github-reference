@@ -94,7 +94,3 @@ git remote set-url origin git@github.com:<username>/<repo name>.git
 ```bash
 git remote -v
 ```
-
-<br><br>
-
-this must appear on test branch only
