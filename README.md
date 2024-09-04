@@ -36,6 +36,28 @@ git commit -m "message" -m "descripion"
 git push -u origin <branch name>
 ```
 
+* Reset changes to added files
+```bash
+git reset <file>
+```
+
+* Reset changes to commit changes
+```bash
+git reset HEAD~1
+```
+
+* Reset changes to a specific commit
+```bash
+git log # then copy the id for the commit you want to reset
+git reset <id>
+```
+
+* Reset changes to a specific commit and make the files the same of this commit
+```bash
+git log # then copy the id for the commit you want to reset
+git reset --hard <id>
+```
+
 <br><br>
 
 ## Branching
