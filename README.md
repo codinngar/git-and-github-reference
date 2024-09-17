@@ -1,8 +1,6 @@
 # Git and Github Reference
 This repository serves as a personal reference for Git and GitHub commands
 
-<br><br>
-
 ## Basic Commands
 
 * Add git to an existing project:
@@ -58,7 +56,7 @@ git log # then copy the id for the commit you want to reset
 git reset --hard <id>
 ```
 
-<br><br>
+
 
 ## Branching
 
@@ -98,7 +96,7 @@ git merge <branch name>
 git branch -d <branch name>
 ```
 
-<br><br>
+
 
 ## Setup SSH key
 
