@@ -115,12 +115,14 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
 
-4. Update the remote URL to SSH:
+4. copy the content in `~/.ssh/id_ed25519.pub` file and go to your account > ssh keys > add a new SSH key with the file content
+
+5. Update the remote URL to SSH:
 ```bash
 git remote set-url origin git@github.com:<username>/<repo name>.git
 ```
 
-5. Check if the repo is using SSH now:
+6. Check if the repo is using SSH now:
 ```bash
 git remote -v
 ```
